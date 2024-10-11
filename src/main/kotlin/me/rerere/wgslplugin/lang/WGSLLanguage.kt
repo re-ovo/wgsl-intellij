@@ -8,7 +8,7 @@ import com.intellij.openapi.util.IconLoader
 object WGSLLanguage : Language("WGSL")
 
 object WGSLIcons {
-    val FILE = IconLoader.getIcon("/icons/wgsl.png", WGSLIcons::class.java);
+    val FILE = IconLoader.getIcon("/icons/webgpu.svg", WGSLIcons::class.java)
 }
 
 object WGSLLanguageFileType : LanguageFileType(WGSLLanguage) {
